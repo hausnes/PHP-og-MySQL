@@ -9,7 +9,7 @@
         <h1>Test av å sette inn data i MySQL vha skjema</h1>
 
         <!-- HTML-kode for eit skjema -->
-        <form method="POST">
+        <form method="POST"> <!-- NB: POST, i motsetning til til dømes GET, altså verbet å "poste" -->
             Postnummer:
             <input type="number" name="postnr">
             Poststed:
